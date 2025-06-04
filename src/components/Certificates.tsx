@@ -130,7 +130,7 @@ const Certificates: React.FC = () => {
               <Trophy className="w-6 sm:w-8 h-6 sm:h-8 text-yellow-500 animate-bounce" />
               <div className="absolute inset-0 w-6 sm:w-8 h-6 sm:h-8 bg-yellow-500 rounded-full opacity-20 animate-ping"></div>
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-yellow-600 via-orange-600 to-red-600 bg-clip-text text-transparent">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
               Certifications & Achievements
             </h2>
             <div className="relative">
