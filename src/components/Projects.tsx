@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       category: "web",
       builtFor: "Streaming Movies & TV Shows",
       impact: "Get a feel of the ui/ux of the actual netflix website",
-      features: ["Expense Tracking", "Budget Planning", "Goal Setting"]
+      features: ["Searching Movies", "UI/UX of Netflix"]
     },
     {
       id: 'panchayat',
