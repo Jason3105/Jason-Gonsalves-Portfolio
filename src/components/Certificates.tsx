@@ -20,21 +20,21 @@ const Certificates: React.FC = () => {
       rating: 5,
       duration: "300 hours",
       level: "Advanced"
+    },
+    {
+      title: "Building Generative AI Skills for Web Developers",
+      issuer: "LinkedIn Learning",
+      date: "June 2025",
+      category: "AI",
+      description: "Discover the power of generative AI in web development with this hands-on learning path. Learn to boost efficiency and innovation through rapid code generation and AI integration. Build AI-powered chatbots with JavaScript, enhance React apps, and leverage AWS SageMaker for machine learning. Elevate your projects with practical examples and real-world challenges. This learning path enables you to start mastering AI in web development.",
+      credentialUrl: "https://www.linkedin.com/learning/certificates/5c5274ec93765d3d15e4b63aa7b8de578866c7b8c261176c4b468520d6e40240?trk=share_certificate",
+      certificateImageUrl: "/Images/genai_ll.png",
+      skills: ["Generative AI", "Chatbot", "Prompt Engineering", "Open AI API", "Javascript"],
+      image: "/Images/genai_ll.png",
+      rating: 5,
+      duration: "14 hours",
+      level: "Advanced"
     }
-    // {
-    //   title: "Full Stack Web Development",
-    //   issuer: "FreeCodeCamp",
-    //   date: "2023",
-    //   category: "Full Stack",
-    //   description: "Complete full-stack development certification including frontend, backend, databases, and deployment.",
-    //   credentialUrl: "https://freecodecamp.org/certification/certificate456",
-    //   certificateImageUrl: "https://images.unsplash.com/photo-1606868306217-dbf5046868d2?w=800&h=600&fit=crop",
-    //   skills: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
-    //   image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-    //   rating: 5,
-    //   duration: "8 months",
-    //   level: "Advanced"
-    // },
     // {
     //   title: "UI/UX Design Fundamentals",
     //   issuer: "Google",
@@ -93,7 +93,7 @@ const Certificates: React.FC = () => {
     // }
   ];
 
-  const categories = ['all', 'Frontend', 'Backend', 'Full Stack', 'Design', 'Management', 'Marketing'];
+  const categories = ['all', 'Frontend', 'Backend', 'Full Stack', 'AI', 'Design'];
   
   const filteredCertificates = filter === 'all' 
     ? certificates 
