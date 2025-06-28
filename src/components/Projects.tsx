@@ -45,16 +45,16 @@ const Projects: React.FC = () => {
       category: "web",
       builtFor: "Streaming Movies & TV Shows",
       impact: "Get a feel of the ui/ux of the actual netflix website",
-      features: ["Searching Movies", "UI/UX of Netflix"]
+      features: ["Expense Tracking", "Budget Planning", "Goal Setting"]
     },
     {
       id: 'panchayat',
       title: "Panchayat Samiti of Navapur Website",
       description: "We developed a user-friendly website for the Panchayat Samiti of Navapur to improve access to government schemes, services, and local updates. The site aims to promote transparency, support rural development, and connect citizens with key information like PMAY and MGNREGA in a digital format that’s accessible to all.",
       image: "/Images/psn.png",
-      tools: ["HTML", "CSS", "Javascript", "Google Translator API", "Gemini API"],
-      githubUrl: "https://github.com/Jason3105/Panchayat-Samiti-Navapur",
-      demoUrl: "https://jason3105.github.io/Panchayat-Samiti-Navapur/",
+      tools: ["React.js", "HTML", "CSS", "Javascript", "Google Translator API", "Gemini API"],
+      githubUrl: "https://github.com/Jason3105/Navapur-Panchayat-Samiti",
+      demoUrl: "https://panchayatnavapur.netlify.app/",
       category: "web",
       builtFor: "Local Citizens of Navapur",
       impact: "Easy access to various government schemes, services and creating awareness among the people",
