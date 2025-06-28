@@ -9,10 +9,10 @@ const Experience: React.FC = () => {
       title: "Design Manager",
       organization: "TEDxCRCE",
       location: "Fr. Conceicao Rodrigues College of Engineering",
-      period: " Aug 2024 - Present",
+      period: " Aug 2024 - June 2025",
       type: "College Council",
       description: [
-        "Created visually appealing promotional content, reels, andgraphics for TEDxCRCE’s Instagram and other social mediaplatforms to enhance audience engagement.",
+        "Created visually appealing promotional content, reels, and graphics for TEDxCRCE’s Instagram and other social mediaplatforms to enhance audience engagement.",
         "Designed creative posters, banners, and event materials, ensuringalignment with TEDx branding guidelines.",
         "Collaborated with the team to develop and execute innovativedesign strategies for impactful marketing campaigns acrossvarious digital platforms.",
         "Tools Used: Canva, DaVinci Resolve, Adobe Premiere Pro, etc."
@@ -20,23 +20,20 @@ const Experience: React.FC = () => {
       color: "blue",
       icon: Users,
       achievements: ["Internship Expo", "9th Annual Event"]
+    },
+    {
+      title: "Internship Expo & Operations Head",
+      organization: "TEDxCRCE",
+      location: "Fr. Conceicao Rodrigues College of Engineering",
+      period: " June 2025 - Present",
+      type: "College Council",
+      description: [
+        "It's still a work in progress."
+      ],
+      color: "green",
+      icon: Target,
+      achievements: []
     }
-    // {
-    //   title: "Event Coordinator",
-    //   organization: "Internship Expo",
-    //   location: "FRCRCE",
-    //   period: "2023",
-    //   type: "Event Management",
-    //   description: [
-    //     "Organized and coordinated internship opportunities for students across various industries",
-    //     "Facilitated connections between students and potential employers",
-    //     "Managed event logistics, registration, and attendee experience",
-    //     "Developed promotional strategies to maximize student participation"
-    //   ],
-    //   color: "green",
-    //   icon: Target,
-    //   achievements: ["Connected 200+ students", "15+ companies participated"]
-    // },
     // {
     //   title: "Community Volunteer",
     //   organization: "Umed Handicapped Centre",
@@ -115,7 +112,7 @@ const Experience: React.FC = () => {
             </div>
           </div>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto animate-fade-in animation-delay-500">
-            My journey in event management, community engagement, and collaborative projects 🌟
+            A timeline of meaningful roles, challenges, and achievements 🏆
           </p>
         </div>
 
